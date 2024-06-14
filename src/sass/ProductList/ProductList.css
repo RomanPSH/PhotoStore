@@ -1,0 +1,33 @@
+.products {
+  margin-top: 36px;
+  min-height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33.333px;
+}
+
+.lack_of_products {
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: Jura-Bold;
+}
+
+.load_more_button {
+  box-sizing: border-box;
+  display: block;
+  margin: 25px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Jura-Bold;
+  background-color: #000000;
+  color: white;
+  border: solid 1px;
+  cursor: pointer;
+}
+.load_more_button:hover {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #000000;
+  border: solid 1px #000000;
+  transition: 0.3s;
+}/*# sourceMappingURL=ProductList.css.map */

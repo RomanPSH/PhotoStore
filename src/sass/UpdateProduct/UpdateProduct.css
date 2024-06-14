@@ -1,0 +1,170 @@
+.update_page_body {
+  box-sizing: border-box;
+  display: flex;
+  height: 550px;
+  width: 1124px;
+  border: solid 1px #000000;
+}
+.update_page_body .update_list_side_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 643px;
+  height: 100%;
+  padding: 14px 0 24px 0;
+}
+.update_page_body .update_list_side_wrapper .update_list_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+  width: 579px;
+  height: 453px;
+}
+.update_page_body .right_side {
+  width: 481px;
+  height: 549px;
+  background-color: #ffffff;
+}
+.update_page_body .right_side .success {
+  color: #05da56;
+  text-align: center;
+  font-family: Jura-Regular;
+  font-size: 25px;
+  margin-top: 100px;
+}
+.update_page_body .right_side .updated_info {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  height: 275.5px;
+  border-bottom: solid 1px #000000;
+}
+.update_page_body .right_side .updated_info_img {
+  width: 76px;
+  height: 114px;
+}
+.update_page_body .right_side .updated_info_img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.update_page_body .right_side .updated_info_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 353px;
+  height: 236px;
+}
+.update_page_body .right_side .updated_info_desc_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+.update_page_body .right_side .updated_info_desc_item .updated_info_name {
+  font-family: Jura-Bold;
+  font-size: 20px;
+}
+.update_page_body .right_side .updated_info_desc_item .updated_item_desc {
+  width: 240px;
+  max-height: 76px;
+  font-family: Jura-Regular;
+  font-size: 20px;
+}
+.update_page_body .right_side .update_info_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.update_page_body .right_side .update_info_form .update_info_form_header {
+  font-family: Jura-Bold;
+  font-size: 24px;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 217px;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .upload_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 76px;
+  height: 149px;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .upload_img .img_wrapper {
+  width: 100%;
+  height: 96px;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .upload_img .img_wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .upload_img input {
+  width: 76px;
+  height: 48px;
+  border: none;
+  background-color: #D9D9D9;
+  color: #000000;
+  font-family: Jura-Regular;
+  font-size: 13px;
+  cursor: pointer;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .update_form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 362px;
+  height: 100%;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .update_form_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 176px;
+  height: 50px;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .update_form_item .update_form_name {
+  font-family: Jura-Regular;
+  font-size: 16px;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .update_form_item input {
+  box-sizing: border-box;
+  padding: 7px;
+  width: 176px;
+  height: 31px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Jura-Regular;
+  font-size: 13px;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .update_form .confirm_update {
+  margin-top: 19px;
+  width: 176px;
+  height: 31px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+.update_page_body .right_side .update_info_form .update_info_form_wrapper .update_form .confirm_update:hover {
+  background-color: #05da56;
+}/*# sourceMappingURL=UpdateProduct.css.map */

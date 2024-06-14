@@ -1,0 +1,43 @@
+.delete_card_item
+    display: flex
+    justify-content: space-between
+    box-sizing: border-box
+    padding: 8px
+    width: 550px
+    height: 90px
+    background-color: #ffffff
+    margin-top: 20px
+    cursor: pointer
+    &:hover
+        background-color: #D9D9D9
+    &_img
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 63px
+        height: 75px
+        cursor: pointer
+        overflow: hidden
+        img
+            max-width: 100%
+            max-height: 100%
+            width: auto
+            height: auto
+            object-fit: contain
+    .delete_card_item_desc
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: flex-end
+        width: 488px
+        .delete_card_header
+            width: 100%
+            text-align: left
+            font-family: Jura-Bold
+            font-size: 20px
+            cursor: pointer
+        .delete_card_price
+            font-family: Jura-Regular
+            font-size: 20px
+            color: #000000
+

@@ -1,0 +1,31 @@
+.profile_menu {
+  padding: 7px 7px;
+  width: 166px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  top: 65px;
+  right: 287px;
+  background-color: #000000;
+  z-index: 5;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+  font-family: Jura-SemiBold;
+  font-size: 17px;
+}
+.profile_menu_btn {
+  cursor: pointer;
+}
+.profile_menu_btn:hover {
+  color: #d1d1d1;
+}
+.profile_menu_divider {
+  width: 140px;
+  height: 1px;
+  background-color: #ffffff;
+}/*# sourceMappingURL=ProfileMenu.css.map */

@@ -1,0 +1,82 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 5;
+}
+.navbar .navbar_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar_content .white_logo {
+  cursor: pointer;
+}
+.navbar .menu {
+  font-family: Jura-SemiBold;
+  font-size: 20px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+}
+.navbar .menu > li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navbar .menu > li a:hover {
+  color: #d1d1d1;
+}
+.navbar .right_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 368px;
+}
+.navbar .right_bar .cart {
+  width: auto;
+  height: 45px;
+  cursor: pointer;
+}
+.navbar .right_bar .cart:hover {
+  color: #d1d1d1;
+}
+.navbar .right_bar .profile_btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 100%;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.navbar .right_bar .profile_btn:hover {
+  background-color: #d1d1d1;
+  display: flex;
+}
+.navbar .right_bar .profile_btn .default_profile_img {
+  width: auto;
+  height: 33px;
+  color: #000000;
+}
+.navbar .right_bar .profile_btn .profile_img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 100%;
+  border: solid 1px #ffffff;
+}
+.navbar .right_bar .not_store {
+  margin-left: 326px;
+}/*# sourceMappingURL=navbar.css.map */

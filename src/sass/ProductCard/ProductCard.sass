@@ -1,0 +1,77 @@
+a
+    text-decoration: none
+    color: inherit
+.product_item
+    box-sizing: border-box
+    padding: 14px 21.5px 16px 21.5px
+    width: 307px
+    height: 380px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    background-color: #ffffff
+    &:nth-child(4)
+         margin-right: 0px
+    &:hover
+        background-color: #000000
+        color: #ffffff
+        transition: 0.7s
+    &_img
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 255px
+        height: 217px
+        overflow: hidden
+        cursor: pointer
+        img
+            max-width: 100%
+            max-height: 100%
+            width: auto
+            height: auto
+            object-fit: contain
+    &_name
+        text-decoration: none
+        font-family: Jura-Bold
+        font-size: 20px
+        max-height: 48px
+        overflow: hidden
+        width: 100%
+        cursor: pointer
+    &_desc
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: start
+        height: 120px
+        width: 264px
+        .product_item_availability
+            text-decoration: none
+            font-family: Jura-Regular
+            color: #787878
+        .product_item_rating
+            width: 106px
+            display: flex
+            justify-content: space-between
+            font-size: 14px
+            .star
+                &:hover
+                    fill: #ffee00
+                    color: #ffee00
+        .product_item_cost_and_buy
+            width: 100%
+            display: flex
+            justify-content: space-between
+            .product_item_cost
+                text-decoration: none
+                font-family: Jura-Regular
+                font-size: 23px
+            .product_basket_icon
+                display: block
+                font-size: 26px
+                cursor: pointer
+                &:hover
+                    color: #51fa89
+            .added
+                color: #51fa89

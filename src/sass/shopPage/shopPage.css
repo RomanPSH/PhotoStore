@@ -1,0 +1,12 @@
+.shop_page {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  min-height: 100vh;
+}
+.shop_page_header {
+  width: 100%;
+  text-align: center;
+  margin: 30px auto;
+  font-family: Jura-Bold;
+  font-size: 45px;
+}/*# sourceMappingURL=shopPage.css.map */

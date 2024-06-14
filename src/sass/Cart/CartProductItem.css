@@ -1,0 +1,92 @@
+.cart_item {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 5px 16px;
+  width: 623px;
+  height: 90px;
+  background-color: #ffffff;
+  margin-bottom: 25px;
+}
+.cart_item:last-child {
+  margin-bottom: 0;
+}
+.cart_item_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 75px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.cart_item_img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cart_item .cart_item_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 512px;
+}
+.cart_item .cart_item_desc .header_and_delete {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cart_item .cart_item_desc .header_and_delete .cart_item_desc_header {
+  width: 85%;
+  text-align: left;
+  font-family: Jura-Bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.cart_item .cart_item_desc .header_and_delete .delete_btn {
+  width: 27px;
+  height: auto;
+  fill: #ff8686;
+  cursor: pointer;
+}
+.cart_item .cart_item_desc .header_and_delete .delete_btn:hover {
+  fill: #ff0000;
+}
+.cart_item .cart_item_desc_price {
+  display: flex;
+  justify-content: space-between;
+  width: 335px;
+  height: 27px;
+}
+.cart_item .cart_item_desc_price .amount_btns {
+  font-family: Jura-Bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 84px;
+  height: 24px;
+}
+.cart_item .cart_item_desc_price .amount_btns .amount_btn {
+  box-sizing: border-box;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+.cart_item .cart_item_desc_price .amount_btns .cart_input {
+  font-family: Jura-Bold;
+  font-size: 15px;
+  width: 32px;
+  height: 18px;
+  border: solid 1px #000000;
+  text-align: center;
+}
+.cart_item .cart_item_desc_price .item_total_price {
+  font-family: Jura-Regular;
+  font-size: 20px;
+  color: #000000;
+}/*# sourceMappingURL=CartProductItem.css.map */

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.banner_section {
+  max-height: 852px;
+  width: 100%;
+  padding: 70px 0 99px 0;
+}
+.banner_section_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner_section .shop_btn {
+  cursor: pointer;
+  width: 291px;
+  height: 70px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 24px;
+  font-family: Jura-SemiBold;
+  display: block;
+  margin-top: 82px;
+}
+.banner_section .shop_btn:hover {
+  background-color: #ffffff;
+  transition: 0.5s;
+  color: #000000;
+  border: solid 1px;
+}
+.banner_section .banner_title {
+  margin-top: 58px;
+  font-size: 36px;
+  font-family: Jura-Bold;
+}
+.banner_section .banner_subtitle {
+  margin-top: 8px;
+  font-size: 22px;
+  font-family: Jura-Regular;
+}
+.banner_section .banner_categories {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner_section .banner_categories .category_card {
+  cursor: pointer;
+  margin-top: 40px;
+  box-sizing: border-box;
+  padding: 25px 0 14px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 431px;
+  height: 397px;
+  background-color: #ffffff;
+}
+.banner_section .banner_categories .category_card:hover {
+  background-color: #000000;
+  transition: 0.5s;
+  color: #ffffff;
+}
+.banner_section .banner_categories .category_card .acсessories_category_img {
+  width: auto;
+  height: 252px;
+}
+.banner_section .banner_categories .category_card .camera_category_img {
+  width: 353px;
+  height: 252px;
+}
+.banner_section .banner_categories .category_card .lens_category_img {
+  width: 171px;
+  height: 255px;
+}
+.banner_section .banner_categories .category_card .banner_category_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 264px;
+  height: 73px;
+}
+.banner_section .banner_categories .category_card .banner_category_text > div:nth-child(1) {
+  text-align: center;
+  font-family: Jura-Bold;
+  font-size: 20px;
+}
+.banner_section .banner_categories .category_card .banner_category_text > div:nth-child(2) {
+  text-align: center;
+  font-family: Jura-Regular;
+  font-size: 16px;
+}
+
+.divider {
+  width: 274px;
+  height: 12px;
+  border: none;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+.divider_black {
+  background-color: #000000;
+}
+.divider_white {
+  background-color: #ffffff;
+}
+
+.preference_section {
+  padding: 19px 0 116px 0;
+  max-height: 750px;
+  width: 100%;
+}
+.preference_section .preference_list {
+  margin-top: 118px;
+  width: 100%;
+  min-height: 513px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.preference_section .preference_list .preference_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 572px;
+  max-height: 226px;
+}
+.preference_section .preference_list .preference_item .preference_icon {
+  width: auto;
+  height: 51px;
+}
+.preference_section .preference_list .preference_item .preference_title {
+  font-family: Jura-SemiBold;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}
+.preference_section .preference_list .preference_item .preference_desc {
+  font-family: Jura-Regular;
+  font-size: 23px;
+  text-align: center;
+  color: #000000;
+}/*# sourceMappingURL=homePage.css.map */

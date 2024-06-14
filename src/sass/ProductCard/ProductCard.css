@@ -1,0 +1,94 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product_item {
+  box-sizing: border-box;
+  padding: 14px 21.5px 16px 21.5px;
+  width: 307px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+.product_item:nth-child(4) {
+  margin-right: 0px;
+}
+.product_item:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.7s;
+}
+.product_item_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 217px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.product_item_img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.product_item_name {
+  text-decoration: none;
+  font-family: Jura-Bold;
+  font-size: 20px;
+  max-height: 48px;
+  overflow: hidden;
+  width: 100%;
+  cursor: pointer;
+}
+.product_item_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 120px;
+  width: 264px;
+}
+.product_item_desc .product_item_availability {
+  text-decoration: none;
+  font-family: Jura-Regular;
+  color: #787878;
+}
+.product_item_desc .product_item_rating {
+  width: 106px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.product_item_desc .product_item_rating .star:hover {
+  fill: #ffee00;
+  color: #ffee00;
+}
+.product_item_desc .product_item_cost_and_buy {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.product_item_desc .product_item_cost_and_buy .product_item_cost {
+  text-decoration: none;
+  font-family: Jura-Regular;
+  font-size: 23px;
+}
+.product_item_desc .product_item_cost_and_buy .product_basket_icon {
+  display: block;
+  font-size: 26px;
+  cursor: pointer;
+}
+.product_item_desc .product_item_cost_and_buy .product_basket_icon:hover {
+  color: #51fa89;
+}
+.product_item_desc .product_item_cost_and_buy .added {
+  color: #51fa89;
+}/*# sourceMappingURL=ProductCard.css.map */

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Jura-Regular";
+  src: url("../fonts/Jura-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jura-SemiBold";
+  src: url("../fonts/Jura-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jura-Bold";
+  src: url("../fonts/Jura-Bold.ttf") format("truetype");
+}
+body {
+  box-sizing: border-box;
+  background: #F5F5F5;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1328px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

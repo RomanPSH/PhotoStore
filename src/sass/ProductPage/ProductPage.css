@@ -1,0 +1,155 @@
+.product_page {
+  height: 95vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product_page_content {
+  box-sizing: border-box;
+  display: flex;
+  width: 1124px;
+  height: 551px;
+  border: solid 2px #000000;
+}
+.product_page_content .product_img_side {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 431px;
+  background-color: #ffffff;
+}
+.product_page_content .product_img_side .product_page_img {
+  display: flex;
+  align-items: center;
+  width: 347px;
+  height: 454px;
+  overflow: hidden;
+}
+.product_page_content .product_img_side .product_page_img img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.product_page_content .product_info_side {
+  box-sizing: border-box;
+  padding: 29px;
+  width: 693px;
+  background-color: #000000;
+}
+.product_page_content .product_info_side .product_name {
+  font-family: Jura-Bold;
+  font-size: 32px;
+  height: 76px;
+  color: #ffffff;
+}
+.product_page_content .product_info_side .cost_rating_availability {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 49px;
+  margin-top: 16px;
+}
+.product_page_content .product_info_side .cost_rating_availability .cost_rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 28px;
+}
+.product_page_content .product_info_side .cost_rating_availability .cost_rating .cost {
+  color: #ffffff;
+  font-family: Jura-Regular;
+  font-size: 24px;
+}
+.product_page_content .product_info_side .cost_rating_availability .cost_rating .rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 24px;
+}
+.product_page_content .product_info_side .cost_rating_availability .cost_rating .rating_stars {
+  display: flex;
+  justify-content: space-between;
+  width: 106px;
+  height: 14px;
+}
+.product_page_content .product_info_side .cost_rating_availability .cost_rating .rating_stars .star {
+  color: #ffffff;
+}
+.product_page_content .product_info_side .cost_rating_availability .cost_rating .rating_value {
+  font-family: Jura-Regular;
+  font-size: 20px;
+  color: #ffffff;
+}
+.product_page_content .product_info_side .cost_rating_availability .availability {
+  font-family: Jura-Regular;
+  font-size: 17px;
+  color: #24FF00;
+}
+.product_page_content .product_info_side .description {
+  margin-top: 12px;
+  width: 100%;
+  height: 76px;
+  color: #ffffff;
+  font-family: Jura-Regular;
+  font-size: 16px;
+}
+.product_page_content .product_info_side .properties {
+  width: 100%;
+  height: 183px;
+}
+.product_page_content .product_info_side .properties .property_header {
+  font-family: Jura-Bold;
+  font-size: 24px;
+  color: #ffffff;
+}
+.product_page_content .product_info_side .properties .properties_list {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 147px;
+  flex-wrap: wrap;
+}
+.product_page_content .product_info_side .properties .properties_list .property_item {
+  display: flex;
+  align-items: center;
+  width: 295px;
+  height: 36px;
+  margin-bottom: 5px;
+}
+.product_page_content .product_info_side .properties .properties_list .property_item .circle {
+  margin-right: 13px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+.product_page_content .product_info_side .properties .properties_list .property_item .property_text {
+  width: 272px;
+  font-family: Jura-Regular;
+  font-size: 15px;
+  color: #ffffff;
+}
+.product_page_content .product_info_side .purchase_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  cursor: pointer;
+  width: 170px;
+  height: 37px;
+  font-family: Jura-Bold;
+  font-size: 24px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding-bottom: 5px;
+}
+.product_page_content .product_info_side .purchase_btn:hover {
+  background-color: #D9D9D9;
+}/*# sourceMappingURL=ProductPage.css.map */

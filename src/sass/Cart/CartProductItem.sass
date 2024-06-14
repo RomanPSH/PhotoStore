@@ -1,0 +1,78 @@
+.cart_item
+    display: flex
+    justify-content: space-between
+    box-sizing: border-box
+    padding: 5px 16px
+    width: 623px
+    height: 90px
+    background-color: #ffffff
+    margin-bottom: 25px
+    &:last-child
+        margin-bottom: 0
+    &_img
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 62px
+        height: 75px
+        cursor: pointer
+        overflow: hidden
+        img
+            max-width: 100%
+            max-height: 100%
+            width: auto
+            height: auto
+            object-fit: contain
+    .cart_item_desc
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: flex-end
+        width: 512px
+        .header_and_delete
+            width: 100%
+            display: flex
+            justify-content: space-between
+            align-items: flex-start
+            .cart_item_desc_header
+                width: 85%
+                text-align: left
+                font-family: Jura-Bold
+                font-size: 20px
+                cursor: pointer
+            .delete_btn
+                width: 27px
+                height: auto
+                fill: #ff8686
+                cursor: pointer
+                &:hover
+                    fill: #ff0000
+    .cart_item_desc_price
+        display: flex
+        justify-content: space-between
+        width: 335px
+        height: 27px
+        .amount_btns
+            font-family: Jura-Bold
+            font-size: 20px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            width: 84px
+            height: 24px
+            .amount_btn
+                box-sizing: border-box
+                padding-bottom: 3px
+                cursor: pointer
+            .cart_input
+                font-family: Jura-Bold
+                font-size: 15px
+                width: 32px
+                height: 18px
+                border: solid 1px #000000
+                text-align: center
+        .item_total_price
+            font-family: Jura-Regular
+            font-size: 20px
+            color: #000000
+

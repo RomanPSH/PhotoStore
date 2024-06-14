@@ -1,0 +1,21 @@
+.social_icons {
+  top: calc((100vh - 156px) / 2);
+  right: 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 35px;
+  height: 156px;
+  position: fixed;
+}
+.social_icons .social_icons_item {
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
+  cursor: pointer;
+}
+.social_icons .social_icons_item:hover {
+  color: #8c00ff;
+  transition: 0.3s;
+}/*# sourceMappingURL=SocialIcons.css.map */

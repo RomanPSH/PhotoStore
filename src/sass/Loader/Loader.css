@@ -1,0 +1,48 @@
+.loaderWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loader {
+  display: inline-grid;
+}
+.loader:before {
+  content: "";
+  grid-area: 1/1;
+  height: 30px;
+  aspect-ratio: 6;
+  --c:#0000 64%,#000 66% 98%,#0000 101%;
+  background: radial-gradient(35% 146% at 50% 159%, var(--c)) 0 0, radial-gradient(35% 146% at 50% -59%, var(--c)) 25% 100%;
+  background-size: 33.3333333333% 50%;
+  background-repeat: repeat-x;
+  -webkit-clip-path: inset(0 100% 0 0);
+          clip-path: inset(0 100% 0 0);
+  animation: l10 1.5s infinite linear;
+}
+.loader:after {
+  content: "";
+  grid-area: 1/1;
+  height: 30px;
+  aspect-ratio: 6;
+  --c:#0000 64%,#000 66% 98%,#0000 101%;
+  background: radial-gradient(35% 146% at 50% 159%, var(--c)) 0 0, radial-gradient(35% 146% at 50% -59%, var(--c)) 25% 100%;
+  background-size: 33.3333333333% 50%;
+  background-repeat: repeat-x;
+  -webkit-clip-path: inset(0 100% 0 0);
+          clip-path: inset(0 100% 0 0);
+  animation: l10 1.5s infinite linear;
+  scale: -1;
+}
+
+@keyframes l10 {
+  50% {
+    -webkit-clip-path: inset(0);
+            clip-path: inset(0);
+  }
+  to {
+    -webkit-clip-path: inset(0 0 0 100%);
+            clip-path: inset(0 0 0 100%);
+  }
+}/*# sourceMappingURL=Loader.css.map */

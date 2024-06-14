@@ -1,0 +1,63 @@
+.update_card_item {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 8px;
+  width: 560px;
+  height: 90px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+.update_card_item:hover {
+  background-color: #D9D9D9;
+}
+.update_card_item_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 63px;
+  height: 75px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.update_card_item_img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.update_card_item .update_card_item_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 470px;
+}
+.update_card_item .update_card_item_desc .header_and_update {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.update_card_item .update_card_item_desc .header_and_update .update_card_desc_header {
+  width: 85%;
+  text-align: left;
+  font-family: Jura-Bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.update_card_item .update_card_item_desc .header_and_update .update_btn_icon {
+  width: 27px;
+  height: auto;
+  cursor: pointer;
+}
+.update_card_item .update_card_item_desc .header_and_update .update_btn_icon:hover {
+  color: #8c00ff;
+}
+.update_card_item .update_card_price {
+  font-family: Jura-Regular;
+  font-size: 20px;
+  color: #000000;
+}/*# sourceMappingURL=UpdateProductCard.css.map */
